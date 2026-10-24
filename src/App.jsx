@@ -8,7 +8,7 @@ import { WishlistProvider } from './context/WishlistContext';
 import { useAuth } from "./context/AuthContext";
 import { Cart } from "./Components/Cart/Cart";
 import { getCartApi, removeCartItemApi } from "./API/cartApi";
-import Footer from "./components/Comman/Footer";
+import Footer from "./Components/Comman/Footer";
 
 
 
