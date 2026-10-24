@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import AppRouter from './Router/AppRouter';
 import Navbar from './Components/Comman/Navbar';
-import Footer from "./components/Comman/Footer";
+
 import ScrollToTop from './Components/Comman/ScrollToTop';
 import { WishlistProvider } from './context/WishlistContext';
 import { useAuth } from "./context/AuthContext";
-import { Cart } from "./components/Cart/Cart";
+import { Cart } from "./Components/Cart/Cart";
 import { getCartApi, removeCartItemApi } from "./API/cartApi";
 
 
