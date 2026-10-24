@@ -13,6 +13,8 @@ import Footer from "./components/Comman/Footer";
 
 
 
+
+
 function App() {
   const { user } = useAuth();
   const [isCartOpen, setIsCartOpen] = useState(false);
